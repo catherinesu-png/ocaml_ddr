@@ -1,6 +1,6 @@
 (library
- (libraries core tictactoe_logic_library)
- (name tictactoe_test_library)
+ (name ddr_test_library)
+ (libraries core ddr_logic_library)
  (inline_tests)
  (preprocess
   (pps ppx_jane)))
